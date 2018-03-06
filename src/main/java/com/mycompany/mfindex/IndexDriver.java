@@ -15,6 +15,7 @@ public class IndexDriver {
     }
     
     public void txtToArrayInit(){
+        
         String filePath = "c:/users/dell/desktop/Ny Mapp/MFDATA.txt";        
         String dataArray = usingBufferedReader(filePath);
         Data [] dArray = JsonToJavaObject(dataArray);
@@ -69,8 +70,7 @@ public class IndexDriver {
             e.printStackTrace();
         }
         return contentBuilder.toString();   
-}
-     
+    }
 }
     
 
